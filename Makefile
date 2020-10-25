@@ -3,6 +3,8 @@
 
 include config.mk
 
+CFLAGS += -I/usr/X11R6/include/freetype2
+
 SRC = drw.c dwm.c util.c
 OBJ = ${SRC:.c=.o}
 
